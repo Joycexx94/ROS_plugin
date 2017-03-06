@@ -1,0 +1,18 @@
+inputs:
+  person :
+    node : 'person'
+    node_publish_topic : '/person/see_person'
+
+  hazardous_item :
+    node : 'hazardous_item'
+    node_publish_topic : '/hazardous_item/see_hazardous_item'
+
+outputs:
+  pick_up :
+    node : 'pick_up'
+    node_subscribe_topic : '/controller/pick_up'
+
+  drop :
+    node : 'drop'
+    node_subscribe_topic : '/controller/drop'
+
